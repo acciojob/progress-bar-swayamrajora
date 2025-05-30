@@ -1,4 +1,3 @@
-//your JS code here. If required.
 const prev = document.getElementById('prev')
 const next = document.getElementById('next')
 const progress = document.getElementById('progress')
