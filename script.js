@@ -33,7 +33,7 @@ function update() {
   const activeCircles = document.querySelectorAll('.circle.active').length
   const totalCircles = circles.length
   const progressPercent = ((activeCircles - 1) / (totalCircles - 1)) * 100
-  progress.style.width = ${progressPercent}%
+  progress.style.width = `${progressPercent}%`
 
   prev.disabled = currentActive === 1
   next.disabled = currentActive === circles.length
